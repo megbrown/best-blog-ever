@@ -1,0 +1,10 @@
+{{> nav }}
+<div class="blogPosts">
+	{{#each post}}
+		<h3>{{title}}</h3>
+		<h5>By {{author}}</h5>
+		<p>{{copy}}</p>
+		<h5>{{date}}</h5>
+	{{/each}}
+</div>
+{{> foot }}
